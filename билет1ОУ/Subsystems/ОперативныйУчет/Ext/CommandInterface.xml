@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CommandInterface xmlns="http://v8.1c.ru/8.3/xcf/extrnprops" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.14">
+	<CommandsVisibility>
+		<Command name="AccumulationRegister.ОстаткиНоменклатуры.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="ChartOfCharacteristicTypes.СвойстваОбъектов.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="InformationRegister.УчетнаяПолитика.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>true</xr:Common>
+			</Visibility>
+		</Command>
+		<Command name="Enum.УчетнаяПолитика.StandardCommand.OpenList">
+			<Visibility>
+				<xr:Common>false</xr:Common>
+			</Visibility>
+		</Command>
+	</CommandsVisibility>
+	<CommandsPlacement>
+		<Command name="AccumulationRegister.ОстаткиНоменклатуры.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.РегистрыНакопления</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="ChartOfCharacteristicTypes.СвойстваОбъектов.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.ПланВидовХарактеристик</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="InformationRegister.УчетнаяПолитика.StandardCommand.OpenList">
+			<CommandGroup>b815100d-57ff-4445-a087-b9c58026be0c</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+		<Command name="Enum.УчетнаяПолитика.StandardCommand.OpenList">
+			<CommandGroup>b815100d-57ff-4445-a087-b9c58026be0c</CommandGroup>
+			<Placement>Auto</Placement>
+		</Command>
+	</CommandsPlacement>
+	<CommandsOrder>
+		<Command name="AccumulationRegister.ОстаткиНоменклатуры.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.РегистрыНакопления</CommandGroup>
+		</Command>
+		<Command name="ChartOfCharacteristicTypes.СвойстваОбъектов.StandardCommand.OpenList">
+			<CommandGroup>CommandGroup.ПланВидовХарактеристик</CommandGroup>
+		</Command>
+		<Command name="InformationRegister.УчетнаяПолитика.StandardCommand.OpenList">
+			<CommandGroup>b815100d-57ff-4445-a087-b9c58026be0c</CommandGroup>
+		</Command>
+		<Command name="Enum.УчетнаяПолитика.StandardCommand.OpenList">
+			<CommandGroup>b815100d-57ff-4445-a087-b9c58026be0c</CommandGroup>
+		</Command>
+	</CommandsOrder>
+	<SubsystemsOrder>
+		<Subsystem>Subsystem.ОперативныйУчет.Subsystem.Документы</Subsystem>
+		<Subsystem>Subsystem.ОперативныйУчет.Subsystem.РегистрыСведений</Subsystem>
+		<Subsystem>Subsystem.ОперативныйУчет.Subsystem.Справочники</Subsystem>
+	</SubsystemsOrder>
+	<GroupsOrder>
+		<Group>CommandGroup.РегистрыНакопления</Group>
+		<Group>CommandGroup.ПланВидовХарактеристик</Group>
+		<Group>b815100d-57ff-4445-a087-b9c58026be0c</Group>
+		<Group>NavigationPanelSeeAlso</Group>
+	</GroupsOrder>
+</CommandInterface>
